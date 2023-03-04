@@ -103,37 +103,37 @@ export default function Home() {
         </section>
         <section ref={projectsRef} className="projects">
           <Link to="/projects/materialised">
-            <div className="project-image">
-              <div>
+            <div className="project-image materialised-div">
+              <div className="projects-text" >
                 <p>Materialised</p>
                 <p>UberEats for building materials</p>
               </div>
             </div>
           </Link>
           <Link to="/projects/ecommerce">
-            <div className="project-image">
-              <div>
-                <p>El Pollo Loco </p>
-                <p>Random assortment</p>
+            <div className="project-image youtube-div">
+              <div className="projects-text" >
+                <p>Youtube Clone </p>
+                <p>Functional youtube clone</p>
               </div>
             </div>
           </Link>
           <Link to="/projects/quiz">
-            <div className="project-image">
-              <div>
-                <p>Quiz</p>
-                <p>Can you answer the 5 questions?</p>
+            <div className="project-image spotify-div">
+              <div className="projects-text" >
+                <p>Spotify Clone</p>
+                <p>Functional spotify clone</p>
               </div>
             </div>
           </Link>
-          <Link to="/projects/tenzies">
+          {/* <Link to="/projects/tenzies">
             <div className="project-image">
               <div>
                 <p>Tenzies</p>
                 <p>Childish fun</p>
               </div>
             </div>
-          </Link>
+          </Link> */}
         </section>
       </main>
     </>
