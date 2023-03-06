@@ -357,3 +357,31 @@ html{
   color: #a62b5ee9;
   background-color: #0b1421;
 }
+
+/* PORJECT PAGES */
+
+.project-page-main{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.project-desc{
+  color: #9ca1b1;
+  font-size: 1.3rem;
+  width: 50%;
+  margin-right: 8rem;
+  margin-bottom: 3rem;
+}
+
+.tech-div{
+  margin-right: 5rem;
+}
+
+.tech{
+  color: #9ca1b1;
+}
+
+.tech-desc{
+  color: #9ca1b1;
+}

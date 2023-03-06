@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <Link to="/projects/ecommerce">
+          <Link to="/projects/youtubeClone">
             <div className="project-image youtube-div">
               <div className="projects-text" >
                 <p>Youtube Clone </p>
@@ -118,7 +118,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <Link to="/projects/quiz">
+          <Link to="/projects/spotify">
             <div className="project-image spotify-div">
               <div className="projects-text" >
                 <p>Spotify Clone</p>

@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar"
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Materialised from "./components/projects/Materialised";
-import Ecommerce from "./components/projects/Ecommerce";
-import Quiz from "./components/projects/Quiz";
+import Youtube from "./components/projects/Youtube";
+import Spotify from "./components/projects/Spotify";
 import Tenzies from "./components/projects/Tenzies";
 import { Route, Routes, useNavigate } from "react-router-dom";
 
@@ -37,8 +37,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/projects/materialised' element={<Materialised />}/>
-          <Route path='/projects/ecommerce' element={<Ecommerce />}/>
-          <Route path='/projects/quiz' element={<Quiz />}/>
+          <Route path='/projects/youtubeClone' element={<Youtube />}/>
+          <Route path='/projects/spotify' element={<Spotify />}/>
           <Route path='/projects/tenzies' element={<Tenzies />}/>
         </Routes>
         <footer ref={contactRef} className="footer-container">
