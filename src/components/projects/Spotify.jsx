@@ -1,8 +1,15 @@
 import spotify1 from "../../assets/spotify-clone/spotify-login.png";
 import spotify2 from "../../assets/spotify-clone/spotify-clone-home.png";
 import spotify3 from "../../assets/spotify-clone/spotify-list.png";
+import { useEffect } from "react";
+import { FaGithub, FaSpotify } from "react-icons/fa";
 
 export default function Spotify() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <div className="project-page-main container">
       <h1>Spotify Clone</h1>
@@ -15,8 +22,8 @@ export default function Spotify() {
           <p className="tech-desc">React, SpotifyAPI</p>
         </div>
         <div className="d-flex flex-column">
-          <button>Project Demo</button>
-          <button>Project Code</button>
+          <a href="" target="_blank"  className="project-link">Project Demo <FaSpotify /></a>
+          <a href="https://github.com/BernardoBranco44/spotify-clone" target="_blank"  className="code-link">Project Code <FaGithub /></a>
         </div>
       </div>
       <div id="carouselExample" className="carousel slide carousel-fade">

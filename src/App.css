@@ -366,9 +366,16 @@ html{
   margin-bottom: 10rem;
 }
 
+.project-page-main > h1{
+  font-family: "Playfair Display";
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .project-desc{
   color: #9ca1b1;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   width: 50%;
   margin-right: 8rem;
   margin-bottom: 3rem;
@@ -384,4 +391,40 @@ html{
 
 .tech-desc{
   color: #9ca1b1;
+}
+
+.project-link, .code-link{
+  text-decoration: none;
+  border: 1px solid #df367ce9;
+  color: #df367ce9;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.3rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 8px;
+}
+
+.project-link:hover, .code-link:hover{
+  cursor: pointer;
+  color: #aa3968;
+  border-color: #aa3968;
+  transition: 0.25s;
+  /* background-color: #9ca1b154; */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  height: 100px;
+  width: 100px;
+}
+
+.carousel{
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.video-player{
+  height: 41rem;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

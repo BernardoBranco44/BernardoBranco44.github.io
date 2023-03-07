@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useContext, useRef } from "react";
+import React, { useContext, useRef, useEffect } from "react";
 import Navbar from "./components/Navbar"
 import Contact from "./components/Contact";
 import Home from "./components/Home";

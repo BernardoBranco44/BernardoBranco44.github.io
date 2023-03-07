@@ -3,9 +3,16 @@ import youtube2 from "../../assets/youtube-clone/youtube-video.png"
 import youtube3 from "../../assets/youtube-clone/youtube-react-screen.png"
 import youtube4 from "../../assets/youtube-clone/youtube-search.png"
 import youtube5 from "../../assets/youtube-clone/youtube-channel.png"
+import { useEffect } from "react";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 
 
 export default function Youtube() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <div className="project-page-main container">
       <h1>Youtube Clone</h1>
@@ -18,8 +25,8 @@ export default function Youtube() {
           <p className="tech-desc">React, Material UI, Rapid API</p>
         </div>
         <div className="d-flex flex-column">
-          <button>Project Demo</button>
-          <button>Project Code</button>
+          <a href="" target="_blank" className="project-link">Project Demo <FaYoutube /></a>
+          <a href="https://github.com/BernardoBranco44/youtube-clone" target="_blank" className="code-link">Project Code <FaGithub /></a>
         </div>
       </div>
       <div id="carouselExampleIndicators" className="carousel slide carousel-fade">
