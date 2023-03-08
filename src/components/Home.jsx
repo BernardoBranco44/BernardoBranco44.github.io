@@ -126,14 +126,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          {/* <Link to="/projects/tenzies">
-            <div className="project-image">
-              <div>
-                <p>Tenzies</p>
-                <p>Childish fun</p>
-              </div>
-            </div>
-          </Link> */}
+          
         </section>
       </main>
     </>
