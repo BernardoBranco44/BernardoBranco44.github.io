@@ -25,7 +25,7 @@ export default function Youtube() {
           <p className="tech-desc">React, Material UI, Rapid API</p>
         </div>
         <div className="d-flex flex-column">
-          <a href="" target="_blank" className="project-link">Project Demo <FaYoutube /></a>
+          <a href="https://bernardobranco44.github.io/youtube-clone" target="_blank" className="project-link">Project Demo <FaYoutube /></a>
           <a href="https://github.com/BernardoBranco44/youtube-clone" target="_blank" className="code-link">Project Code <FaGithub /></a>
         </div>
       </div>
