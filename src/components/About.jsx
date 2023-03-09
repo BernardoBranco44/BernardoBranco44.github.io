@@ -24,8 +24,9 @@ export default function About() {
           <ul>
             <li>JavaScript (ES6+)</li>
             <li>React</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
+            <li>Typescript</li>
+            <li>Redux</li>
+            <li>Next.js</li>
           </ul>
       </div>
       <div className="image-div">

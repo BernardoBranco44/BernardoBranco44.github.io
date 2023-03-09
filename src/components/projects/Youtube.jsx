@@ -17,8 +17,14 @@ export default function Youtube() {
     <div className="project-page-main container">
       <h1>Youtube Clone</h1>
       <div className="d-flex mt-4">
-        <p className="project-desc">I used this project as a way to practice. One of the goals was to force
-          myself to use an external component library to get a feel for it
+        <p className="project-desc">This is one of my practice projects.
+        One of the goals was to force myself to use an external component
+        library to get a feel for it. It is responsive and I'm happy with the
+        way it turned out. First time working with this API so it was a great
+        challenge, the biggest problem I have is sometimes the channel profile
+        pictures won't load. Material UI's components were great to use and
+        experiment, the inline styling on the components is not my favorite but
+        I wanted to try it, now i know.
         </p>
         <div className="tech-div">
           <h4 className="tech">Technologies</h4>

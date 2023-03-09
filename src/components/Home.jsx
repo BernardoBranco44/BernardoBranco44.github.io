@@ -101,32 +101,34 @@ export default function Home() {
             <About />
           </div>
         </section>
-        <section ref={projectsRef} className="projects">
-          <Link to="/projects/materialised">
-            <div className="project-image materialised-div">
-              <div className="projects-text" >
-                <p>Materialised</p>
-                <p>UberEats for building materials</p>
+        <section ref={projectsRef} className="projects-section">
+          <h3><span>Projects</span></h3>
+          <div className="projects">
+            <Link to="/projects/materialised" className="projects-links">
+              <div className="project-image materialised-div">
+                <div className="projects-text" >
+                  <h2>Materialised</h2>
+                  <p>UberEats for building materials</p>
+                </div>
               </div>
-            </div>
-          </Link>
-          <Link to="/projects/youtubeClone">
-            <div className="project-image youtube-div">
-              <div className="projects-text" >
-                <p>Youtube Clone </p>
-                <p>Functional youtube clone</p>
+            </Link>
+            <Link to="/projects/youtubeClone" className="projects-links">
+              <div className="project-image youtube-div">
+                <div className="projects-text" >
+                  <h2>Youtube Clone </h2>
+                  <p>Functional youtube clone</p>
+                </div>
               </div>
-            </div>
-          </Link>
-          <Link to="/projects/spotify">
-            <div className="project-image spotify-div">
-              <div className="projects-text" >
-                <p>Spotify Clone</p>
-                <p>Functional spotify clone</p>
+            </Link>
+            <Link to="/projects/spotify" className="projects-links">
+              <div className="project-image spotify-div">
+                <div className="projects-text" >
+                  <h2>Spotify Clone</h2>
+                  <p>Functional spotify clone</p>
+                </div>
               </div>
-            </div>
-          </Link>
-          
+            </Link>
+          </div>
         </section>
       </main>
     </>

@@ -3,6 +3,23 @@ html{
 
 }
 
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #9ca1b1;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #797e89;
+}
+
 .app{
   min-height: 100vh;
   display: flex;
@@ -69,6 +86,7 @@ html{
 }
 
 .pres > h1{
+  font-size: 3rem;
   margin-bottom: 4rem;
   font-family: 'Playfair Display', serif;
 }
@@ -190,6 +208,7 @@ html{
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #df367ce9;
   padding-bottom: 0.5rem;
+  text-shadow: rgba(0, 0, 0, 0.469) 0px 8px 24px;
 }
 
 .about-info > p{
@@ -229,8 +248,22 @@ html{
 
 /* PROJECTS */
 
-.projects{
+.projects-section{
   height: 100vh;
+}
+
+.projects-section > h3{
+  width: 250px;
+  font-size: 3.5rem;
+  padding-top: 12rem;
+  margin: auto auto 8rem 8rem;
+  border-bottom: 1px solid #df367ce9;
+  padding-bottom: 0.5rem;
+  text-shadow: rgba(0, 0, 0, 0.469) 0px 8px 24px;
+}
+
+.projects{
+  /* height: 100vh; */
   display: grid;
   gap: 10rem;
   grid-template-columns: 1fr 1fr 1fr;
@@ -239,8 +272,10 @@ html{
   margin-bottom: 4rem;
 }
 
-.projects > a{
-  width: 200px;
+.projects-links{
+  margin: auto;
+  width: 300px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -280,7 +315,7 @@ html{
   justify-content: center;
   height: 100%;
   width: 100%;
-  backdrop-filter: blur(10px) brightness(30%);
+  backdrop-filter: blur(40px) brightness(100%);
   border-radius: 20px;
   color: #df367ce9;
   font-family: 'Roboto', sans-serif;
@@ -288,6 +323,15 @@ html{
   font-weight: 700;
   padding: 1rem;
   -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.600);
+}
+
+.projects-text > h2{
+  font-weight: 900;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.600);
 }
 
@@ -371,11 +415,12 @@ html{
   font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 2.5rem;
+  text-shadow: rgba(0, 0, 0, 0.469) 0px 8px 24px;
 }
 
 .project-desc{
   color: #9ca1b1;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   width: 50%;
   margin-right: 8rem;
   margin-bottom: 3rem;
@@ -419,7 +464,7 @@ html{
 }
 
 .carousel{
-  margin-top: 2rem;
+  margin-top: 1rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
