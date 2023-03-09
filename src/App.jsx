@@ -6,7 +6,6 @@ import Home from "./components/Home";
 import Materialised from "./components/projects/Materialised";
 import Youtube from "./components/projects/Youtube";
 import Spotify from "./components/projects/Spotify";
-import Tenzies from "./components/projects/Tenzies";
 import { Route, Routes, useNavigate } from "react-router-dom";
 
 export const NavigationContext = React.createContext()
@@ -39,7 +38,6 @@ function App() {
           <Route path='/projects/materialised' element={<Materialised />}/>
           <Route path='/projects/youtubeClone' element={<Youtube />}/>
           <Route path='/projects/spotify' element={<Spotify />}/>
-          <Route path='/projects/tenzies' element={<Tenzies />}/>
         </Routes>
         <footer ref={contactRef} className="footer-container">
           <Contact />
